@@ -11,7 +11,7 @@ FROM
 ORDER BY 
   CAST(purchase_price AS float64) DESC 
 ```
-####In order to analyze purchases during december sale I have typecasted a data field, which was actually a datetime type, into an actual data type using the formula:
+#### In order to analyze purchases during december sale I have typecasted a data field, which was actually a datetime type, into an actual data type using the formula:
 
 
 ```SQL
